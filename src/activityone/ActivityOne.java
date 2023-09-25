@@ -16,10 +16,14 @@ public class ActivityOne {
     public static void main(String[] args) {
         // TODO code application logic here
         showMessage();
+        showBye();
     }
     
     public static void showMessage(){
         System.out.println("Hello World");
     }
     
+    public static void showBye(){
+        System.out.println("Bye");
+    }
 }
