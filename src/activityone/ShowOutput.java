@@ -8,6 +8,8 @@ package activityone;
  *
  * @author Quitco, Kyle Matthew M.      BSIT - 2       CSIT228      September 26, 2023
  */
-public class Welcome {
-    
+public class ShowOutput {
+    public static void simplePrint(int num){
+        System.out.println("Result is: " + num);
+    }
 }

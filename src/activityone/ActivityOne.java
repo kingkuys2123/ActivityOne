@@ -6,7 +6,7 @@ package activityone;
 
 /**
  *
- * @author kyleq
+ * @author Quitco, Kyle Matthew M.      BSIT - 2       CSIT228      September 26, 2023
  */
 public class ActivityOne {
 
@@ -18,9 +18,9 @@ public class ActivityOne {
         showMessage();
         showBye();
         
-        int result = sub(2, 4);
+        int result = mul(2, 4);
         
-        System.out.println("Result is: " + result);
+        ShowOutput.simplePrint(result);
     }
     
     public static void showMessage(){
@@ -37,5 +37,9 @@ public class ActivityOne {
     
     public static int sub(int num1, int num2){
         return num1-num2;
+    }
+    
+    public static int mul(int num1, int num2){
+        return num1*num2;
     }
 }
