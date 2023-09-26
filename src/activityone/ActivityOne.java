@@ -17,6 +17,9 @@ public class ActivityOne {
         // TODO code application logic here
         showMessage();
         showBye();
+        
+        int result = add(2, 4);
+        System.out.println("Result is: " + result);
     }
     
     public static void showMessage(){
@@ -25,5 +28,9 @@ public class ActivityOne {
     
     public static void showBye(){
         System.out.println("Bye");
+    }
+    
+    public static int add(int num1, int num2){
+        return num1+num2;
     }
 }
