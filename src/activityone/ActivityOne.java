@@ -18,7 +18,7 @@ public class ActivityOne {
         showMessage();
         showBye();
         
-        int result = mul(2, 4);
+        int result = div(4, 2);
         
         ShowOutput.simplePrint(result);
     }
@@ -41,5 +41,9 @@ public class ActivityOne {
     
     public static int mul(int num1, int num2){
         return num1*num2;
+    }
+    
+    public static int div(int num1, int num2){
+        return num1/num2;
     }
 }
