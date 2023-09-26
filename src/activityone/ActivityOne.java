@@ -4,9 +4,11 @@
  */
 package activityone;
 
+import GreetingsWorld.*;
+
 /**
  *
- * @author Quitco, Kyle Matthew M.      BSIT - 2       CSIT228      September 26, 2023
+ * @author Quitco, Kyle Matthew M.      BSIT - 2       CSIT228 - G1      September 26, 2023
  */
 public class ActivityOne {
 
@@ -17,8 +19,10 @@ public class ActivityOne {
         // TODO code application logic here
         showMessage();
         showBye();
+        Welcome.showWelcome();
+        Greetings.showGreeting();
         
-        int result = div(4, 2);
+        int result = add(4, 2);
         
         ShowOutput.simplePrint(result);
     }
@@ -28,7 +32,7 @@ public class ActivityOne {
     }
     
     public static void showBye(){
-        System.out.println("Bye");
+        System.out.println("Bye World");
     }
     
     public static int add(int num1, int num2){
