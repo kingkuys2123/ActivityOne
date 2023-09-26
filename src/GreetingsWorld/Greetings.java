@@ -10,6 +10,6 @@ package GreetingsWorld;
  */
 public class Greetings {
     public static void showGreeting(){
-        System.out.println("Greetings World");
+        System.out.println("Greetings World!");
     }
 }
