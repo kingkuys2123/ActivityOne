@@ -21,11 +21,11 @@ public class ActivityOne {
         showBye();
         Welcome.showWelcome();
         Greetings.showGreeting();
-        System.out.println("Farewell World");
+        System.out.println("Farewell World!");
     }
     
     public static void showMessage(){
-        System.out.println("Hello World");
+        System.out.println("Hello World!");
     }
     
     public static void showBye(){
