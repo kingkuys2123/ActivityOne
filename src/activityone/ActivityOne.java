@@ -21,10 +21,7 @@ public class ActivityOne {
         showBye();
         Welcome.showWelcome();
         Greetings.showGreeting();
-        
-        int result = add(4, 2);
-        
-        ShowOutput.simplePrint(result);
+        System.out.println("Farewell World");
     }
     
     public static void showMessage(){
@@ -33,21 +30,5 @@ public class ActivityOne {
     
     public static void showBye(){
         System.out.println("Bye World");
-    }
-    
-    public static int add(int num1, int num2){
-        return num1+num2;
-    }
-    
-    public static int sub(int num1, int num2){
-        return num1-num2;
-    }
-    
-    public static int mul(int num1, int num2){
-        return num1*num2;
-    }
-    
-    public static int div(int num1, int num2){
-        return num1/num2;
     }
 }
