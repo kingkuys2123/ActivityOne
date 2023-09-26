@@ -10,6 +10,6 @@ package activityone;
  */
 public class ShowOutput {
     public static void simplePrint(int num){
-        System.out.println("Result is: " + num);
+        System.out.println("The result of operation: " + num);
     }
 }
