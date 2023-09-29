@@ -6,7 +6,7 @@ package GreetingsWorld;
 
 /**
  *
- * @author Quitco, Kyle Matthew M.      BSIT - 2       CSIT228 - G1      September 26, 2023
+ * @author Quitco, Kyle Matthew M.      BSIT - 2       CSIT228 - G1      September 29, 2023
  */
 public class Greetings {
     public static void showGreeting(){
